@@ -10,6 +10,7 @@ public class Kata2 {
         Integer[] data = {1,2,1,40,9,17,17,89,89,100,11,4,13,20,89};
         
         Histogram histo = new Histogram(data);
+        
         Map<Integer,Integer> histogr = histo.getHistogram();
         
         for (Integer key : histogr.keySet()) {
